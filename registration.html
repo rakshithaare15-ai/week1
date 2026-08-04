@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Registration Form</title>
+            <style>
+            body{
+                 font-family: Arial, sans-serif;
+                background-color: #f1f2f1f0;
+            }
+            .container{
+                max-width: 800px;
+                margin: 40px auto;
+                padding: 10px;
+                background-color: #ffffff;
+                border: 1px solid #ddd;
+                border-radius: 6px;
+                box-shadow: 0 0 6px rgba(0,0,0,0,1);
+            }
+            .from-group{
+                margin-bottom: 20px;
+            }
+            label {
+                display: block;
+                margin-bottom: 10px;
+            }
+            input[type="text"], input[type="email"],input[type="password"]{
+            width: 60%;
+            height: 20px;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        button[type="submit"]{
+            width:60%;
+            height:20px;
+            background-color:#4CAF50;
+            color:#fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor:pointer;
+        }
+        button[type="submit"]:hover{
+            background-color: #3e8e41;
+        }
+        </style>
+        </head>
+        <body>
+            <div class="container">
+                <h2> Registration Form</h2>
+                <form>
+                    <div class="from-group">
+                        <label for="firstname">First Name:</label>
+                        <input type="text" id="firstname" name="firstname" required>
+                        </div>
+                        <div class="from-group">
+                        <label for="middlename">Midle Name:</label>
+                        <input type="text" id="middlename" name="middlename" required>
+                        </div>
+                        <div class="from-group";
+                        <label for="lastname">Last Name:</label>
+                        <input type="text" id="lastname" name="lastname" required>
+                    </div>
+                    <div class="from-group">
+                        <label for="surnameasperssc">Sur Name As Per SSC:</label>
+                        <input type="text" id="surnameasperssc" name="surnameasperssc" required>
+                        </div>
+                     <div class="from-group";
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="from-group";
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="from-group";
+                        <label for="confirmpassword"> Confirm Password:</label>
+                        <input type="password" id="confirmpassword" name="confirmpassword" required>
+                    </div>
+                     </div>
+                    <div class="from-group";
+                        <label for="mobilenumber">Enter Mobile Number:</label>
+                        <input type="mobilenumber" id="mobilenumber" name="mobilenumber" required>
+                    </div>
+                     </div>
+                    <div class="from-group";
+                        <label for="enterotp">Enter OTP:</label>
+                        <input type="enterotp" id="enterotp" name="enterotp" required>
+                    </div>
+                    <div class="from-group">
+                        <label for="enterimagecaptcha">Enter Image Captcha:</label>
+                        <input type="enterimagecaptcha" id="enterimagecaptcha" name="enterimagecaptcha" required>
+                        </div>
+                        <div class="from-group">
+                        <label for="entervoicecaptcha">Enter Voice Captcha:</label>
+                        <input type="entervoicecaptcha" id="entervoicecaptcha" name="entervoicecaptcha" required>
+                        </div>
+                    <button type="submit">Register</button>
+                </form>
+            </div>
+        </body>
+</html>
